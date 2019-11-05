@@ -19,7 +19,7 @@ public class UserController {
 
     @RequestMapping("hello")
     public String hello(){
-        return "hello";
+        return "hello xxx";
     }
 
 }
