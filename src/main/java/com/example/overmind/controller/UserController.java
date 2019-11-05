@@ -17,4 +17,9 @@ public class UserController {
         return "hello world";
     }
 
+    @RequestMapping("hello")
+    public String hello(){
+        return "hello";
+    }
+
 }
