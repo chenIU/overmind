@@ -19,6 +19,7 @@ public class UserController {
 
     @RequestMapping("hello")
     public String hello(){
+        System.out.println("hello world");
         return "hello xxx";
     }
 
